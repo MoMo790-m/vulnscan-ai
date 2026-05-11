@@ -216,3 +216,23 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# Virtual environment
+venv/
+
+# Data files ->too large for GitHub
+data/raw/
+data/processed/
+
+# Trained model weights -> too large for GitHub
+models/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
